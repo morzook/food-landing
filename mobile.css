@@ -1,0 +1,210 @@
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        max-width: 480px;
+        background-image: url("marble-bg.jpg");
+        background-size:cover ;
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .food-bg{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px ;
+    }
+    
+    .content{
+        position: absolute;
+        height: 250vh;
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .food-img{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .logo-header{
+      width: 99% ;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .navbar{
+        background: none;
+        width: 99%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2rem;
+        position: sticky;
+        z-index: 999; 
+        margin-top: -150px;
+      }
+    
+      .navbar-menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity:0;
+        height: 50vh;
+        z-index: -1;
+      }
+    
+      .navbar-menu.active{
+        background: white;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 50vh;
+        font-size: 1.6rem;
+      }
+    
+    
+      .navbar-toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px 15px;
+        transition: all 0.3s ease-in-out;
+        background: black;
+      }
+    
+      .navbar-item {
+        width: 100%;
+      }
+    
+      .navbar-links{
+        color: black;
+        text-align: center;
+        background:white;
+        width: 100%;
+        display: table;
+      }
+    
+      #mobile.menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transition: translate (5% 20%);
+      }
+    
+      .navbar-toggle .bar {
+        display: block;
+        cursor: pointer;
+    
+      }
+
+    
+
+#navbar-logo{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 50px;
+  
+  }
+  
+  .header{
+      margin-top: -200px;
+      height: 30%;
+      width: 99%;
+      font-family: 'Hammersmith One', sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      font-weight: 900;
+      word-spacing: 0.7em;
+  }
+  
+  .boxes{
+      height: 380vh;
+      width: 99%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  
+  }
+  
+  .box-1, .box-2, .box-3, .box-4 {
+       width: 60%;
+       height: 20%;
+       background: rgba( 249, 247, 247, 0.9 );
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       backdrop-filter: blur( 4px );
+       -webkit-backdrop-filter: blur( 4px );
+       border-radius: 15px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+       display: flex;
+       flex-direction: column;      
+       text-align: center;
+       justify-content: space-around;
+  }
+  
+  .img-container{
+    width: 100%;
+    height: 45%;  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+  
+  }
+  
+  .food-name{
+    line-height: 8px;
+  }
+  
+
+  
+  .box-content{
+    height: 25%;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+  }
+  
+  .time{
+   text-align: left;
+    width: 40%;
+    height: 50%
+  }
+  
+  .portion{
+    text-align: right;
+    width: 40%;
+    height: 50%
+  }
+  
+    
+    
+  }
